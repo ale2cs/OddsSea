@@ -1,1 +1,1 @@
-# Sports-Betting-Web-Scraper
+# OddsSea

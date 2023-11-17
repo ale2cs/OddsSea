@@ -48,9 +48,6 @@ export default function Navbar() {
           <li className={styles.option}>
             <Link className={styles.link} href="/about">About</Link>
           </li>
-          <li className={styles.option}>
-            <Link className={styles.link} href="/contact">Contact</Link>
-          </li>
         </ul>
       </nav>
     </header>

@@ -3,10 +3,12 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: #262b44;
+  height: 100vw;
   padding: 0 0.25rem;
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5, h6{
+  color: #262b44;
 }
 
 p, aside {
@@ -41,4 +43,10 @@ select {
   background: #ffffff;
   border: 1px solid #c0cbdc;
   border-radius: 5px;
+}
+
+.page {
+  background-color: #ffffff;
+  opacity: 1;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 21px ), repeating-linear-gradient( #c0cbdc55, #c0cbdc );
 }

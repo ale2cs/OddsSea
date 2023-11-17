@@ -116,7 +116,7 @@ export default function KellyCriterion() {
               onChange={changeOddsFormat}
             >
               <option value="american">American</option>
-              <option value="decimal" selected>
+              <option value="decimal" defaultValue="decimal">
                 Decimal
               </option>
               <option value="fractional">Fractional</option>

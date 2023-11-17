@@ -114,7 +114,7 @@ export default function Margin() {
   }, [inputs]);
 
   return (
-    <div>
+    <div className={calcStyles.page}>
       <header className={calcStyles["calc-head"]}>
         <h1 className={calcStyles["calc-header"]}>Margin Calculator</h1>
         <aside>
@@ -134,7 +134,7 @@ export default function Margin() {
               onChange={changeOddsFormat}
             >
               <option value="american">American</option>
-              <option value="decimal" selected>
+              <option value="decimal" defaultValue="decimal">
                 Decimal
               </option>
               <option value="fractional">Fractional</option>

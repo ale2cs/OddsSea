@@ -2,3 +2,9 @@
   text-align: center;
   font-size: 2rem;
 }
+
+.page {
+  background-color: #ffffff;
+  opacity: 1;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 21px ), repeating-linear-gradient( #c0cbdc55, #c0cbdc );
+}

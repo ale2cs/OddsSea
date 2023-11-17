@@ -1,0 +1,9 @@
+.title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.content {
+  max-width: 720px;
+  margin: auto;
+}

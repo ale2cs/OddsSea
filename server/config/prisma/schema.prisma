@@ -16,6 +16,8 @@ model lines {
   created_at String
   updated_at String
   markets    markets @relation(fields: [market_id], references: [market_id], onDelete: Cascade, onUpdate: NoAction, map: "fk_market_id")
+
+  @@index([market_id])
 }
 
 model markets {

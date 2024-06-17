@@ -1,5 +1,6 @@
 import Navbar from '@/components/navbar'
 import 'styles/globals.css'
+import { Analytics } from '@vercel/analytics/react';
 
 
 export const metadata = {
@@ -8,12 +9,13 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body className="page">
-        <Navbar/>
-        {children}
-        </body>
-    </html>
-  )
+    return (
+      <html lang="en">
+        <body>
+          <Navbar/>
+          {children}
+          <Analytics/>
+          </body>
+      </html>
+    )
 }

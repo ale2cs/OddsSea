@@ -29,6 +29,9 @@ CREATE TABLE "markets" (
 );
 
 -- CreateIndex
+CREATE INDEX "lines_market_id_idx" ON "lines"("market_id");
+
+-- CreateIndex
 CREATE UNIQUE INDEX "unique_market" ON "markets"("name", "type", "period", "date", "spov", "spun");
 
 -- AddForeignKey
